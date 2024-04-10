@@ -1,0 +1,55 @@
+.mainDiv {
+    background-image: url(images/background-reactcart-2.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    margin: 35px auto 0; /* Add margin from the top */
+    padding: 0; /* Remove default body padding */
+    height: calc(80vh - 50px); /* Set body height to full viewport height minus the top margin */
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+     align-items: center;
+     flex-wrap: wrap;
+     display: flex;
+}
+
+input[type="text"]{
+    /* Your styles here */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px; /* Example width */
+    height: 30px; /* Example height */
+    padding: 5px; /* Example padding */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 10px; /* Example border radius */
+    font-size: 16px; /* Example font size */
+    color: #333; /* Example text color */
+    background-color: #fff; /* Example background color */
+}
+
+/* Additional styles for when the input is focused */
+input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: dodgerblue; /* Example focus border color */
+    box-shadow: 0 0 5px dodgerblue; /* Example focus box shadow */
+}
+.childDiv{
+    margin-right: 700px;
+}
+.childDiv button{
+    margin-left: 10px;
+}
+.mianDiv p{
+    font-size: x-large;
+    margin-right: 200px;
+}
+.searchList{
+  list-style-type: none;
+  background-color: aliceblue;
+  border: 1px solid rgb(142, 128, 128);
+  width: 200px;
+}
+
+.searchList:hover {
+    background-color: rgb(166, 192, 200); /* Change to the desired color */
+  }

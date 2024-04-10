@@ -1,0 +1,54 @@
+.phoneImage{
+    height: 200px;
+    width: 250px;
+}
+.phoneMainDiv {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    text-align: center;
+    justify-items: center; 
+  }
+  
+  .phoneCard {
+    margin: 10px; /* Adjust the margin as needed */
+    border: 3px solid rgb(241, 235, 235);
+    border-radius: 5px;
+    width: 300px;
+ height: auto;
+   /* display: flex;  */
+  }
+  .laptopImage{
+    height: 200px;
+    width: 250px;
+  }
+  .laptopMainDiv{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    text-align: center;
+    justify-items: center; 
+  }
+  .laptopCard{
+    margin: 10px; /* Adjust the margin as needed */
+    border: 3px solid rgb(241, 235, 235);
+    border-radius: 5px;
+    width: 300px;
+ height: auto;
+  }
+  h1{
+    color: rgb(75, 69, 69);
+  }
+  .phoneCard button{
+    background-color: rgb(250, 133, 44);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+  }
+  .laptopCard button{
+    background-color: rgb(250, 133, 44);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+  }
+  .parentDiv{
+    margin: 20px;
+  }

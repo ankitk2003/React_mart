@@ -1,0 +1,37 @@
+.card{
+ border: 2px solid rgb(128, 111, 111);
+ width: 300px;
+ height: auto;
+ border-radius: 5px;
+ background-color: #fff; /* Background color of the card */
+ /* border-radius: 10px; Adjust border radius as needed */
+ /* box-shadow: 0 4px 8px rgba(228, 29, 29, 0.1); Box shadow properties */
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+}
+.cardImage{
+    height: 250px;
+    width: 250px;
+      margin-top: 30px; 
+    /* margin-left: 30px; */ 
+} 
+.para{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ccc;
+    text-decoration: none;
+    /* border-bottom: 2px solid #ccc; */
+}
+.link{
+    text-decoration: none;
+}

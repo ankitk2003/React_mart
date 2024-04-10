@@ -1,0 +1,35 @@
+/* footer.module.css */
+
+.mainDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  h2{
+    background-color: #f0f0f0;
+
+  }
+  .list1,
+  .list2,.list3,.list4 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list1 li,
+  .list2 li {
+    margin-bottom: 10px;
+  }
+  
+  .list1 li:first-child {
+    font-weight: bold;
+  }
+  
+  .list2 li:first-child {
+    font-weight: bold;
+  }
+  .list3 li:first-child, .list4 li:first-child{
+    font-weight: bold;
+  }
+  

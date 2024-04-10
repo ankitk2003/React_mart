@@ -1,0 +1,53 @@
+
+/* account.module.css */
+.mainDiv {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainDiv h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainDiv input[type="email"],
+.mainDiv input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.mainDiv input[type="email"]:focus,
+.mainDiv input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.mainDiv button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(27, 164, 164);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mainDiv .signupLink {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(30, 30, 64);
+    font-weight: normal;
+}
+

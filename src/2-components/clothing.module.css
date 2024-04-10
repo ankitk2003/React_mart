@@ -1,0 +1,33 @@
+.offerDiv{
+     background-image: url(shirts-images/clothing-offer.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    margin: 35px auto 0; /* Add margin from the top */
+    padding: 0; /* Remove default body padding */
+    height: calc(80vh - 50px); /* Set body height to full viewport height minus the top margin */
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+     align-items: center;
+     flex-wrap: wrap;
+     display: flex;
+}
+.shirtImage{
+    height: 200px;
+    width: 250px;
+}
+.shirtMainDiv {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    text-align: center;
+    justify-items: center; 
+  }
+  
+  .shirtCard {
+    margin: 10px; /* Adjust the margin as needed */
+    border: 3px solid rgb(241, 235, 235);
+    border-radius: 5px;
+    width: 300px;
+ height: auto;
+   /* display: flex;  */
+  }

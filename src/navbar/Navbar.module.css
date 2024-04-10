@@ -1,0 +1,39 @@
+.navbar {
+    display: flex; 
+    /* flex-wrap: wrap; */
+    justify-content:space-around;
+ align-items: center; 
+ background-color: white;
+ color: black;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-left: 300px; /* Adjust as needed */
+    margin-right: 0px;
+    font-weight: bold;
+  }
+  
+  .navbar ul li:first-child {
+    margin-left: 0px;
+  }
+  .navbar nav a {
+    text-decoration: none; /* Removes the underline */
+  }
+  button{
+    background-color: rgb(253, 103, 49);
+    height: 30px;;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+  }
+  button:hover{
+    background-color: rgb(254, 73, 6);
+
+  }
+  
